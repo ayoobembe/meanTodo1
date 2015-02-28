@@ -1,1 +1,1 @@
-var app = angular.module('meanTodo1', []);
+var app = angular.module('meanTodo1', ['ngResource']);

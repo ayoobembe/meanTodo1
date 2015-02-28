@@ -2,6 +2,8 @@
   "name": "meanTodo1",
   "version": "0.0.1",
   "dependencies": {
-    "express": "^4.12.0"
+    "body-parser": "^1.12.0",
+    "express": "^4.12.0",
+    "mongoose": "^3.8.24"
   }
 }
