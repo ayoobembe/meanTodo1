@@ -1,0 +1,21 @@
+body {
+  position: relative;
+  margin-bottom: 5%;
+  min-height: 650px;
+  border: solid black;
+}
+
+#outer {
+  min-height: 100%;
+}
+
+.banner {
+  border: solid black;
+}
+
+.taskList {
+  position: relative;
+  /*border: solid pink;*/
+  width: 40%;
+  min-height: 450px;
+}

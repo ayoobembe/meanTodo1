@@ -8,6 +8,7 @@ var express     = require('express'),
 // Middleware
 mongoose.connect('mongodb://localhost:27017/meanTodo1')
 app.use('/js', express.static(__dirname + '/client/js'));
+app.use('/css', express.static(__dirname + '/client/css'));
 app.use(bodyParser())
 
 // Navigation Route
